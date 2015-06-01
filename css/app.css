@@ -1,0 +1,196 @@
+/****
+CHMI Sub-Site Styles (c) 2015
+Lane Goodman
+*****/
+
+.pageWrap{
+	position: absolute;
+	top: 17%;
+}
+
+.contentWrap{
+	padding-top: 8rem;
+	padding-bottom: 2rem;
+}
+/******
+TOPBAR
+******/
+.top-bar{
+	background-color: #fff;
+	color:#404e66;
+	height: 11.8em;
+	}
+.marquee{
+	-webkit-box-shadow: 0 0 8px 0 rgba(0,0,0,0.7);
+    box-shadow: 0 0 8px 0 rgba(0,0,0,0.7);
+    position: fixed;
+    z-index: 999;
+    min-width: 100%;
+}
+.marquee a{
+	color: #404e66;
+}
+.topTitle{
+	color: #404e66;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+	border: 7px solid #404e66;
+	padding: .1rem 1rem .1rem 1rem;
+	margin-left: auto;
+ 	margin-right: auto;
+ 	margin-top: 6%;
+ 	width: 8em;
+	}
+
+.topLinks ul{
+	position: absolute;
+	top: 5%;
+	right: 4%;
+}
+
+.logo-image img{
+	margin: -3.5% 0 0 6%;
+}
+/********
+Typography
+********/
+html{
+	font-size: 14px;
+}
+body, h1, h2, h3, h4, h5, h6, a{
+	font-family: 'Futura', sans-serif;
+	font-weight: 100;
+}
+
+.secTitle{
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	border: 6px solid #fff;
+	padding: .1rem 1rem .1rem 1rem;
+	margin: 16% auto 4% auto;
+ 	width: 10em;
+}
+
+.secTitle2{
+	color: #404e66;
+	text-align: center;
+	text-transform: uppercase;
+	border: 6px solid #404e66;
+	padding: .1rem 1rem .1rem 1rem;
+	margin: 16% auto 4% auto;
+ 	width: 10em;
+}
+
+.readmore{
+	display: block;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+}
+.subheader{
+	color:#fff;
+	text-align: center;
+}
+.subheader2{
+	color:#404e66;
+	text-align: center;
+}
+/******
+SIDEBAR
+*******/
+.sidebar{
+	position: fixed;
+	border-right: 8px solid #fff;
+	height: 100%;
+}
+.side-nav{
+	display: inline-block;
+	margin: 18% 0 0 15%;
+}
+.side-nav li a{
+	text-align: center;
+	text-transform: uppercase;
+	border: 4px solid #fff;
+	margin: .25em 0 .5em 0;
+}
+.side-nav li a:not(.button){
+	color: #fff;
+}
+
+/**********
+BACKGROUNDS
+**********/
+
+.colorTile1{
+	color: #fff;
+	background-color: #404e66;
+	margin: 0;
+	padding: 0;
+}
+
+.colorTile2{
+	color: #404e66;
+	background-color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+.colorTile3{
+	color:#fff;
+	background-color: #2c84c6;
+	margin: 0;
+	padding: 0;
+}
+
+.colorTile4{
+	color:#fff;
+	background-color: #8325f7;
+	margin: 0;
+	padding: 0;
+}
+
+/*********
+HERO IMAGE
+*********/
+
+.hero {
+	padding-top: 3rem;
+}
+
+ .heroText{
+ 	color: #fff;
+ 	font-weight: 700;
+ 	text-align: center;
+ 	font-style: italic;
+ 	font-size: 6rem;
+ 	text-transform: uppercase;
+ 	line-height: 6.5rem;
+ 	width: 6em;
+ 	padding-top: 3rem;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ }
+
+ .heroImage{
+ 	height: 27rem;
+ 	background: url(../img/CHMIgroup1.jpg) no-repeat center;
+ 	background-size: cover;
+	position: relative;
+	z-index: 16;
+}
+
+ .heroImage:after { 
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAbElEQVQYV2O0dU+TPLxz1nMGBgYGR7cU4z+MTM9gfHu39DRGkARIEcv/f1L7d805C+Mz/Wf0Pbhr5iywAmw6/zH+3wwyiREkiU0nzCRGZDeA7ITphJkMdwPMTnQ3gRVg0wnzDSNIEuRaXL4BAAKoXH/YHYQOAAAAAElFTkSuQmCC) center repeat;
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+	opacity: 1;
+	z-index: -1;
+	}
