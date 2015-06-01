@@ -58,7 +58,7 @@ Typography
 html{
 	font-size: 14px;
 }
-body, h1, h2, h3, h4, h5, h6, a{
+body, h1, h2, h3, h4, h5, h6, a, div, section, header, footer{
 	font-family: 'Futura', sans-serif;
 	font-weight: 100;
 }
@@ -89,7 +89,19 @@ body, h1, h2, h3, h4, h5, h6, a{
 	padding-bottom: 2rem;
 	text-align: center;
 	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 2rem;
 	color: #fff;
+}
+.readmore2{
+	display: block;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 2rem;
+	color: #de2156;
 }
 .subheader{
 	color:#fff;
