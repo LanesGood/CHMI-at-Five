@@ -3,16 +3,14 @@ CHMI Sub-Site Styles (c) 2015
 Lane Goodman
 *****/
 
-.bodyWrap{
-	max-width: 40em;
+.pageWrap{
+	position: absolute;
+	top: 17%;
+	max-width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
 	padding-left: auto;
 	padding-right: auto;
-}
-.pageWrap{
-	position: absolute;
-	top: 17%;
 }
 
 .contentWrap{
