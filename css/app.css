@@ -3,6 +3,13 @@ CHMI Sub-Site Styles (c) 2015
 Lane Goodman
 *****/
 
+.bodyWrap{
+	max-width: 40em;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: auto;
+	padding-right: auto;
+}
 .pageWrap{
 	position: absolute;
 	top: 17%;
@@ -18,6 +25,7 @@ TOPBAR
 .top-bar{
 	background-color: #fff;
 	color:#404e66;
+	height: 11.8em;
 	}
 .marquee{
 	-webkit-box-shadow: 0 0 8px 0 rgba(0,0,0,0.7);
@@ -112,9 +120,7 @@ body, h1, h2, h3, h4, h5, h6, a, :before, :after{
 SIDEBAR
 *******/
 .sidebar{
-	position: absolute;
-		top: 30%;
-		left: 10%;
+	position: fixed;
 	border-right: 8px solid #fff;
 	height: 100%;
 }
@@ -210,4 +216,4 @@ HERO IMAGE
 	MEDIA QUERIES
 	************/
 
-	@media
+	@media screen and 
