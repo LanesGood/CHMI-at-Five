@@ -12,15 +12,9 @@ Lane Goodman
 }
 
 .pageWrap{
-	position: absolute;
 	top: 17%;
-	/**
-	max-width: 1200px; 
-	**/
-	margin-left: auto;
-	margin-right: auto;
-	padding-left: auto;
-	padding-right: auto;
+	max-width: 1920px;
+	margin: 0 auto;
 }
 
 .contentWrap{
@@ -129,12 +123,15 @@ SIDEBAR
 *******/
 .sidebar{
 	position: fixed;
-	border-right: 8px solid #fff;
-	height: 100%;
+	border-right: 4px solid #fff;
+	height: 200%;
+	top: -20%;
 }
 .side-nav{
 	display: inline-block;
 	margin: 18% 0 0 15%;
+	position: absolute;
+	top: 20%;
 }
 .side-nav li a{
 	text-align: center;
@@ -191,17 +188,17 @@ HERO IMAGE
  	font-weight: 700;
  	text-align: center;
  	font-style: italic;
- 	font-size: 6rem;
+ 	font-size: 6em;
  	text-transform: uppercase;
- 	line-height: 6.5rem;
+ 	line-height: 6.5em;
  	width: 6em;
- 	padding-top: 3rem;
+ 	padding-top: 3em;
  	margin-left: auto;
  	margin-right: auto;
  }
 
  .heroImage{
- 	height: 27rem;
+ 	height: 27em;
  	background: url(../img/CHMIgroup1.jpg) no-repeat center;
  	background-size: cover;
 	position: relative;
