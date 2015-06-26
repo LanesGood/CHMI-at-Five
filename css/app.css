@@ -6,7 +6,9 @@ Lane Goodman
 .pageWrap{
 	position: absolute;
 	top: 17%;
-	max-width: 1200px;
+	/**
+	max-width: 1200px; 
+	**/
 	margin-left: auto;
 	margin-right: auto;
 	padding-left: auto;
