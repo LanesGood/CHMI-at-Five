@@ -3,6 +3,14 @@ CHMI Sub-Site Styles (c) 2015
 Lane Goodman
 *****/
 
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
 .pageWrap{
 	position: absolute;
 	top: 17%;
