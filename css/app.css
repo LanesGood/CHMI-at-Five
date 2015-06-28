@@ -12,6 +12,7 @@ Lane Goodman
 }
 
 .pageWrap{
+	position: absolute;
 	top: 17%;
 	max-width: 1920px;
 	margin: 0 auto;
@@ -24,6 +25,7 @@ Lane Goodman
 /******
 TOPBAR
 ******/
+
 .top-bar{
 	background-color: #fff;
 	color:#404e66;
@@ -64,6 +66,7 @@ TOPBAR
 /********
 Typography
 ********/
+
 html{
 	font-size: 14px;
 }
@@ -121,6 +124,7 @@ body, h1, h2, h3, h4, h5, h6, a, :before, :after{
 /******
 SIDEBAR
 *******/
+
 .sidebar{
 	position: fixed;
 	border-right: 4px solid #fff;
@@ -188,17 +192,16 @@ HERO IMAGE
  	font-weight: 700;
  	text-align: center;
  	font-style: italic;
- 	font-size: 6em;
+ 	font-size: 6rem;
  	text-transform: uppercase;
- 	line-height: 6.5em;
+ 	line-height: 6.5rem;
  	width: 6em;
- 	padding-top: 3em;
- 	margin-left: auto;
- 	margin-right: auto;
+ 	padding-top: 3rem;
+ 	margin: 0 auto;
  }
 
  .heroImage{
- 	height: 27em;
+ 	height: 27rem;
  	background: url(../img/CHMIgroup1.jpg) no-repeat center;
  	background-size: cover;
 	position: relative;
