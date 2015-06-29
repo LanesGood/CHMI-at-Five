@@ -30,7 +30,7 @@ TOPBAR
 	background-color: #fff;
 	color:#404e66;
 	height: 11.8em;
-	overflow: hidden;
+	overflow: auto;
 	}
 .marquee{
 	-webkit-box-shadow: 0 0 8px 0 rgba(0,0,0,0.7);
