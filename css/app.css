@@ -122,10 +122,16 @@ body, h1, h2, h3, h4, h5, h6, a, :before, :after{
 	text-align: center;
 }
 
+.whiteHead{
+	color: #FFFFFF;
+}
 #bigText{
 	font-size: 3em;
 }
 
+.colorTile1 > h1,h2,h3,h4,h5{
+	color: #FFFFFF;
+}
 /******
 SIDEBAR
 *******/
