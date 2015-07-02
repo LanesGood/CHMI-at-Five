@@ -294,9 +294,6 @@ EASY PIE CHART
   margin-left: 0.1em;
   font-size: .8em;
 }
-	/************
-	MEDIA QUERIES
-	************/
 
 /*******
 ODOMETER
@@ -387,3 +384,7 @@ ODOMETER
   -o-transform: translateY(0);
   transform: translateY(0);
 }
+
+/************
+MEDIA QUERIES
+************/
