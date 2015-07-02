@@ -1,8 +1,21 @@
-/****
-CHMI Sub-Site Styles (c) 2015
+/***********************
+CHMI AT FIVE
+Sub-Site Styles (c) 2015
 Lane Goodman
-*****/
+************************/
 
+/***************
+CSS CONTENTS
+
+1. TOPBAR
+2. TYPOGRAPHY
+3. SIDEBAR
+4. BACKGROUNDS
+5. HERO IMAGE
+6. BLOCK GRIDS
+7. EASY PIE CHART
+8. ODOMETER
+****************/
 *,
 *::before,
 *::after {
@@ -21,6 +34,7 @@ Lane Goodman
 	padding-top: 8rem;
 	padding-bottom: 2rem;
 }
+
 /******
 TOPBAR
 ******/
