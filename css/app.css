@@ -345,9 +345,18 @@ BACKGROUNDS
 	padding: 0;
 }
 
+.colorTile1 a, .colorTile3 a{
+	color: #83d5f7;
+}
+.colorTile1 a:hover, .colorTile3 a:hover{
+	color: #fff;
+}
+.colorTile1 a:active, .colorTile3 a:active{
+	color: #de2156;
+}
 .colorTile4{
 	color:#fff;
-	background-color: #8325f7;
+	background-color: #83d5f7;
 	margin: 0;
 	padding: 0;
 }
@@ -534,8 +543,9 @@ ODOMETER
 MEDIA QUERIES
 ************/
 
-@media screen and only (max-width: 730px) {
-	.top-bar.topTitle h1{
+/**@media screen (min-width: 730px) {
+	.topTitle{
 		display: none;
 	}
 }
+**/
