@@ -81,11 +81,10 @@ TOPBAR
 	height: 5em;
 }
 	.top-bar.small .topTitle {
-		margin: auto;
+		margin: 2%;
 		border: 4px solid #404e66;
 		width: 10em;
 		font-size: 1.8em;
-		margin: 1.75% auto 1.25% auto;
 	}
 	.top-bar.small .topLinks ul{
 		font-size: .8em;
