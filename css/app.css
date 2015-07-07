@@ -111,7 +111,6 @@ html{
 }
 body, h1, h2, h3, h4, h5, h6, a, :before, :after{
 	font-family: 'futura-pt', 'Futura', sans-serif;
-	font-weight: 400;
 }
 body {
   font-size: 100%;
@@ -252,15 +251,16 @@ HERO IMAGE
 	padding-top: 3rem;
 }
 
- .heroText{
+ #heroText{
  	color: #fff;
- 	font-weight: 'heavy', heavy, 700;
+ 	font-family: 'futura-pt-i7', 'futura-pt', sans-serif;
+  font-weight: 700;
  	text-align: center;
  	font-style: italic;
- 	font-size: 7rem;
+ 	font-size: 6rem;
  	text-transform: uppercase;
  	line-height: 6.5rem;
- 	width: 7em;
+ 	width: 6em;
  	padding-top: 3rem;
  	margin: 0 auto;
  }
