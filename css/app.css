@@ -106,9 +106,6 @@ header,nav,a,img,ul,h1,li{
 Typography
 *********/
 
-html{
-	font-size: 14px;
-}
 body, h1, h2, h3, h4, h5, h6, a, :before, :after{
 	font-family: 'futura-pt', 'Futura', sans-serif;
 }
