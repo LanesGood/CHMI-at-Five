@@ -6,6 +6,12 @@ $(document).on("scroll",function(){
     }
 });
 
+$(document).ready(function(){
+  $('.your-class').slick({
+    setting-name: setting-value
+  });
+});
+                
 /* 
 ===============================================================
 jQuery plugin to expand/collapse a content element when a 
