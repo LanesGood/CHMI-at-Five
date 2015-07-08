@@ -173,6 +173,9 @@ body {
 .colorTile1 > h1,h2,h3,h4,h5{
 	color: #FFFFFF;
 }
+.colorTile2 > h1,h2,h3,h4,h5{
+  color: #404e66;
+}
 /******
 SIDEBAR
 *******/
