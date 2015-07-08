@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="css/foundation.min.css" />
 	<link rel="stylesheet" href="css/app.css" />
 	<link rel="stylesheet" href="css/font-awesome.min.css" />
-
+	<link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.slick/1.5.5/slick.css"/>
 	<!--HEAD SCRIPTS-->
 	<script src="js/vendor/modernizr.js"></script>
     <script src="//use.typekit.net/idf0pjr.js"></script>
@@ -70,7 +70,15 @@
 			<div class="small-10 small-centered columns heroImage">
 				<h1 class="small-3 small-centered" id="heroText">Identify.<br/>Analyze.<br/>Connect.</h1>
 			</div>
-
+<!--
+			<div class="small-10 small-centered columns sliderPics">
+    			<div class="heroImage">
+    				<h1 class="small-3 small-centered" id="heroText">Identify.<br/>Analyze.<br/>Connect.</h1>
+    			</div>
+    			<div>your content</div>
+    			<div>your content</div>
+  			</div>
+-->
 			<div class="row">
 				<section class="small-10 small-centered columns">
 					<h2 class="secTitle">Introduction</h2>
@@ -124,7 +132,8 @@
 					<br />
 					<h3 class="subheader">Database at a Glance</h3>
 					<p>As of June 2015, CHMI has identified over <strong>1400 programs</strong> in more than <strong>130 countries</strong> around the world. Here, we highlight some of the interesting trends of this database.<br /> To learn more, explore the database at <a><strong>HealthMarketInnovations.org/programs</strong></a>.</p>
-					<div id="odometer" class="odometer small-centered">600</div>
+					<div id="odometer" class="odometer small-centered">600 <h1>Programs in the CHMI Database</h1></div>
+					<br />
 					<div class="chart" data-percent="1400" data-scale-color="#ffb400">1400</div>
 					<div class="chart" data-percent="13" data-scale-color="#ffb400">73</div>
 					<div class="chart" data-percent="72" data-scale-color="#ffb400">73</div>
@@ -240,8 +249,6 @@
 						<ul class="inline-list right">
 							<li><a href="#">Section 1</a></li>
 							<li><a href="#">Section 2</a></li>
-							<li><a href="#">Section 3</a></li>
-							<li><a href="#">Section 4</a></li>
 						</ul>
 					</div>
 				</div>
@@ -273,7 +280,16 @@
 			scaleColor: false,
 			scaleLength: false,
 		});</script>
-		
+		<!--Slick Slider -->
+	<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.5/slick.min.js"></script>
+	<script>
+		$(document).ready(function(){
+		  $('.sliderPics').slick({
+		    setting-name: setting-value
+		  });
+		});
+	</script>
+
 		
 
 </body>
