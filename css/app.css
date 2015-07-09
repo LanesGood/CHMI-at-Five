@@ -260,16 +260,17 @@ HERO IMAGE
  	font-size: 6rem;
  	text-transform: uppercase;
  	line-height: 6.5rem;
- 	width: 6em;
- 	padding-top: 3rem;
- 	margin: 0 auto;
+ 	width: 6em; 
+  margin: 5% 30%;
+  position: absolute;
+  z-index: 18;
  }
 
- .heroImage{
- 	height: 27rem;
- 	background: url(../img/CHMIgroup1.jpg) no-repeat center;
- 	background-size: cover;
-	position: relative;
+.heroImage{
+  width: 75%;
+  margin: 0 auto;
+}
+.heroImage img{
 	z-index: 16;
 }
 
@@ -282,7 +283,7 @@ HERO IMAGE
 	right: 0;
 	top: 0;
 	opacity: 1;
-	z-index: -1;
+	z-index: 17;
 	}
 
 /**********

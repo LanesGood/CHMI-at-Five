@@ -6,52 +6,6 @@ $(document).on("scroll",function(){
     }
 });
 
- var $windowWidth=$(window).width();
-
-$( window ).resize(function() {
-var $windowWidth=$(window).width();
-if(($windowWidth > 1) && ($windowWidth < 640)){
-$('.slick-multislider').unslick();  
-      $('.slick-multislider').slick({
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          autoplay: true,
-          autoplaySpeed: 2000,
-          dots: true,
-        });
-      
-    } else {
-$('.slick-multislider').unslick();      
-        $('.slick-multislider').slick({
-          slidesToShow: 3,
-          slidesToScroll: 2,
-          autoplay: true,
-          autoplaySpeed: 2000,
-          dots: true,
-        });
-    }   
-
-});  
-
-if(($windowWidth > 1) && ($windowWidth < 640)){
-
-      $('.slick-multislider').slick({
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          autoplay: true,
-          autoplaySpeed: 2000,
-          dots: true,
-        });
-      
-    } else {
-        $('.slick-multislider').slick({
-          slidesToShow: 3,
-          slidesToScroll: 2,
-          autoplay: true,
-          autoplaySpeed: 2000,
-          dots: true,
-        });
-    }
     
 /* 
 ===============================================================
@@ -374,3 +328,51 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
         return this;
     };
 }(jQuery));
+
+
+ var $windowWidth=$(window).width();
+
+$( window ).resize(function() {
+var $windowWidth=$(window).width();
+if(($windowWidth > 1) && ($windowWidth < 640)){
+$('.slick-multislider').unslick();  
+      $('.slick-multislider').slick({
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 2000,
+          dots: true,
+        });
+      
+    } else {
+$('.slick-multislider').unslick();      
+        $('.slick-multislider').slick({
+          slidesToShow: 3,
+          slidesToScroll: 2,
+          autoplay: true,
+          autoplaySpeed: 2000,
+          dots: true,
+        });
+    }   
+
+});  
+
+if(($windowWidth > 1) && ($windowWidth < 640)){
+
+      $('.slick-multislider').slick({
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 2000,
+          dots: true,
+        });
+      
+    } else {
+        $('.slick-multislider').slick({
+          slidesToShow: 3,
+          slidesToScroll: 2,
+          autoplay: true,
+          autoplaySpeed: 2000,
+          dots: true,
+        });
+    }
