@@ -176,6 +176,25 @@ body {
 .colorTile2 > h1,h2,h3,h4,h5{
   color: #404e66;
 }
+.bigpara{
+  font-size: 1.3em;
+  padding: 1em;
+  font-weight: 400;
+  font-style: italic;
+}
+.bold-li{
+  font-weight: 700;
+}
+.bold-li p, h4{
+  font-weight: normal;
+}
+.content li h4:first-child:first-letter { 
+  font-size: 3em; 
+  line-height: 60px; 
+  padding-top: 4px; 
+  padding-right: 8px; 
+  padding-left: 3px; 
+}
 /******
 SIDEBAR
 *******/
@@ -261,13 +280,15 @@ HERO IMAGE
  	text-transform: uppercase;
  	line-height: 6.5rem;
  	width: 6em; 
-  margin: 5% 30%;
+  margin: auto;
   position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
   z-index: 18;
  }
 
 .heroImage{
-  width: 75%;
   margin: 0 auto;
 }
 .heroImage img{
@@ -428,9 +449,12 @@ ODOMETER
 MEDIA QUERIES
 ************/
 
-/**@media screen (min-width: 730px) {
+@media (max-width: 760px) {
 	.topTitle{
 		display: none;
 	}
+
+  #heroText{
+    font-size: 3vw;
+  }
 }
-**/
