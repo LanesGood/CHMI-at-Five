@@ -106,9 +106,9 @@ header,nav,a,img,ul,h1,li{
 Typography
 *********/
 
-body, h1, h2, h3, h4, h5, h6, a, :before, :after{
+/*body, h1, h2, h3, h4, h5, h6, a, :before, :after{
 	font-family: 'futura-pt', 'Futura', sans-serif;
-}
+}*/
 body {
   font-size: 100%;
 }
@@ -173,7 +173,7 @@ body {
   font-size: .85em;
   line-height: 1.25em;
 }
-.colorTile1 > h1,h2,h3,h4,h5{
+.colorTile1, .colorTile3 > h1,h2,h3,h4,h5{
 	color: #FFFFFF;
 }
 .colorTile2 > h1,h2,h3,h4,h5{
@@ -360,9 +360,10 @@ ODOMETER
 *******/
 #odometer {
   display: block;
+  float: left;
 	text-align: center;
-	font-size: 2em;
-	font-weight: 700; 
+	font-size: 4em;
+	font-weight: 400; 
 }
 .odometer.odometer-auto-theme, .odometer.odometer-theme-minimal {
   display: inline-block;

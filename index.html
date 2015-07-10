@@ -7,7 +7,7 @@
 	<meta lang="en">
 	<link rel="stylesheet" href="css/foundation.min.css" />
 	<link rel="stylesheet" href="css/app.css" />
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="http://cdn.jsdelivr.net/jquery.slick/1.5.5/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.5.5/slick-theme.css"/>
 	<!--HEAD SCRIPTS-->
@@ -105,9 +105,9 @@
 				<section class="small-10 small-centered columns">
 					<h2 class="secTitle2">Forward</h2>
 					<h3 class="subheader2">The Five C’s of Vibrant Innovation Ecosystems</h3>
-					<a class="expander readmore2" href="#">Read the Forward</a>
+					<p>The Center for Health Market Innovations (CHMI) started in 2010 with a simple mandate: find health programs using market-based innovations in low- and middle-income countries (LMICs). This information would then allow us to analyze the trends and effects of their methods, and connect them to the resources that can help them scale and serve more people - ultimately improving health outcomes. While the 600 innovations we documented in 2010 seemed comprehensive, today we boast a staggering 1,430 programs in our database, which continues to grow by the week.</p>
+					<a class="expander readmore2" href="#">Click to read more</a>
 					<div class="content 5cs"> <!-- 5C TEXT-->
-						<p>The Center for Health Market Innovations (CHMI) started in 2010 with a simple mandate: find health programs using market-based innovations in low- and middle-income countries (LMICs). This information would then allow us to analyze the trends and effects of their methods, and connect them to the resources that can help them scale and serve more people - ultimately improving health outcomes. While the 600 innovations we documented in 2010 seemed comprehensive, today we boast a staggering 1,430 programs in our database, which continues to grow by the week.</p>
 						<p>Early on, we realized that our simple mandate translated into a very complex set of activities. When we set out to document innovative programs, we found that the tools available for obtaining and spreading information about innovations were lacking. There was little information on which innovations work well, and “how and why” these models are working. And few steps had been made toward and obvious way of addressing these deficiencies.</p>
 						<p class="bigpara">The evolution of CHMI has shown that while our activities resulting in the scale-up of individual innovations are necessary and important, the effects of connecting multiple organizations to governments and each other has a much greater impact on the broader innovation ecosystem.</p></span>
 						<p>We’ve learned a lot about what innovators and public health systems need to drive successful innovations forward. The “five C’s” reflect the lessons we’ve learned in this process, and are essential approaches for anyone working to transform promising innovations into opportunities for social change.</p>
@@ -140,8 +140,8 @@
 					<br />
 					<h3 class="subheader">Database at a Glance</h3>
 					<p>As of June 2015, CHMI has identified over <strong>1400 programs</strong> in more than <strong>130 countries</strong> around the world. Here, we highlight some of the interesting trends of this database.<br /> To learn more, explore the <a href="http://www.healthmarketinnovations.org/programs"><strong>CHMI Program Database</strong></a>.</p>
-					<div id="odometer" class="odometer small-centered">600 <h1>Programs in the CHMI Database</h1></div>
-					<br />
+					<div id="odometer" class="odometer small-3 small-centered">600</div>
+					<h3>Programs in the CHMI Database</h3>
 					<div class="chart" data-percent="1400" data-scale-color="#ffb400">1400</div>
 					<div class="chart" data-percent="13" data-scale-color="#ffb400">73</div>
 					<div class="chart" data-percent="72" data-scale-color="#ffb400">73</div>
@@ -287,6 +287,10 @@
     <script> $('.expander').simpleexpand(); </script>
 	<script src="js/jquery.easypiechart.js"></script>
 		<script>$('.chart').easyPieChart({
+			barColor: '#83d5f7',
+			lineWidth: 16,
+			size: 150,
+			lineCap: 'square',
 			trackColor: false,
 			scaleColor: false,
 			scaleLength: false,
