@@ -12,9 +12,10 @@ CSS CONTENTS
 3. SIDEBAR
 4. BACKGROUNDS
 5. HERO IMAGE
-6. BLOCK GRIDS
-7. EASY PIE CHART
-8. ODOMETER
+6. QUOTE MAP
+7. BLOCK GRIDS
+8. EASY PIE CHART
+9. ODOMETER
 ****************/
 *,
 *::before,
@@ -349,6 +350,9 @@ SLIDER IMAGES
   position: relative;
   overflow: hidden;
 }
+/********
+QUOTE MAP
+********/
 img.map{
   display: block;
   max-width: 1290px;
@@ -357,26 +361,31 @@ img.map{
   padding-bottom: 2%;
 }
 .overlay {
-  max-width: 70% !important;
+  width: 65% !important;
   color: #fff;
   font-weight: 400;
-  margin: 6em 0 2em 6em;
   z-index: 2;
-  bottom: 0;
-  left: 0;
+  margin: auto;
   position: absolute;
-  right:0;
-  top:0;
+  left: 0;
+  right: 0;
+  top: 5vw;
 }
-.map::before{
-  content: " ";
-  background: linear-gradient(to bottom right, rgba(255,255,255,0.2), rgba(0,0,0,0.6));
+img.map:after{
+  height: 100px;
+  background-color: #000000;
+  /*linear-gradient(to bottom right, rgba(255,255,255,0.2), rgba(0,0,0,1));*/
   bottom: 0;
   left: 0;
   position: absolute;
   right:0;
   top:0;
+  opacity: 1;
   z-index:1;
+}
+.qsource{
+  font-size: .5em;
+  font-style: italic;
 }
 /**********
 BLOCK GRIDS
@@ -521,7 +530,7 @@ ODOMETER
 MEDIA QUERIES
 ************/
 
-@media (max-width: 760px) {
+@media (max-width: 780px) {
 	.topTitle{
 		display: none;
 	}
@@ -535,5 +544,22 @@ MEDIA QUERIES
     right: 0;
     top: 5vw;
     z-index: 18;
+  }
+
+  .overlay{
+    font-size: 3vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .overlay{
+    background-color: #fff;
+    color: #ccc;
+    font-weight: bold;
+    position: relative;
+    overflow: hidden;
+  }
+  .qsource{
+    font-size: 1em;
   }
 }
