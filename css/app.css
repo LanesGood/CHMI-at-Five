@@ -236,6 +236,7 @@ BACKGROUNDS
   	margin: 0;
 	padding: 0;
 }
+/*
 .colorTile1:after { 
 	background: url(../img/texture_navy.png) center repeat;
 	content: "";
@@ -247,13 +248,14 @@ BACKGROUNDS
 	opacity: 1;
 	z-index: 17;
 	}
-
+*/
 .colorTile2{
 	color: #404e66;
 	background-color: #fff;
 	margin: 0;
 	padding: 0;
 }
+/*
 .colorTile2:after { 
 	background: url(../img/texture_blue.png) center repeat;
 	content: "";
@@ -265,6 +267,7 @@ BACKGROUNDS
 	opacity: 1;
 	z-index: 17;
 	}
+  */
 .colorTile3{
 	color:#fff;
 	background-color: #2c84c6;
