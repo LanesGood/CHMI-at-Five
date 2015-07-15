@@ -16,6 +16,13 @@ CSS CONTENTS
 7. BLOCK GRIDS
 8. EASY PIE CHART
 9. ODOMETER
+
+REF:
+CHMI COLORS=
+Navy #404e66
+Blue #2c84c6
+Light Blue #83d5f7
+Pink #de2156
 ****************/
 *,
 *::before,
@@ -183,7 +190,7 @@ h1,h2,h3,h4,h5,h6{
   line-height: 1.25em;
 }
 .colorTile1 > h1,h2,h3,h4,h5, {
-  color: #FFF;
+  color: #FFFFFF;
 }
 .colorTile2 > h1,h2,h3,h4,h5{
   color: #404e66;
@@ -191,9 +198,12 @@ h1,h2,h3,h4,h5,h6{
 .colorTile3 > h1,h2,h3,h4,h5{
 	color: #FFFFFF;
 }
-.bigpara{
-  font-size: 1.3em;
-  padding: 1em;
+.fancy-quote{
+  color:#2c84c6;
+  margin: 1rem 0 0 -10%;
+  width: 120%;
+  font-size: 1.5rem;
+  padding: 1rem;
   font-weight: 400;
   font-style: italic;
 }
