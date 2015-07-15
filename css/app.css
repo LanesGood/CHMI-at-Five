@@ -189,14 +189,20 @@ h1,h2,h3,h4,h5,h6{
   font-size: .85em;
   line-height: 1.25em;
 }
-.colorTile1 > h1,h2,h3,h4,h5, {
+.colorTile1 > h1,h2,h3,h4,h5, li{
   color: #FFFFFF;
 }
-.colorTile2 > h1,h2,h3,h4,h5{
+.colorTile2 > h1,h2,h3,h4,h5, li{
   color: #404e66;
 }
-.colorTile3 > h1,h2,h3,h4,h5{
+.colorTile3 > h1,h2,h3,h4,h5, li{
 	color: #FFFFFF;
+}
+.pink-quote{
+  color: #fff;
+  font-size: 1.8rem;
+  background-color: #de2156;
+  line-height: 2.1rem;
 }
 .fancy-quote{
   color:#2c84c6;
@@ -472,7 +478,7 @@ EASY PIE CHART
 ODOMETER
 *******/
 #odometer {
-  display: block;
+  display: inline-block;
   float: left;
 	text-align: center;
 	font-size: 4em;
@@ -582,6 +588,23 @@ MEDIA QUERIES
 
   .overlay{
     font-size: 3vw;
+  }
+  .secTitle{
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  border: 2px solid #fff;
+  padding: .1rem 1rem .1rem 1rem;
+  margin: 16% auto 4% auto;
+  }
+
+.secTitle2{
+  color: #404e66;
+  text-align: center;
+  text-transform: uppercase;
+  border: 2px solid #404e66;
+  padding: .1rem 1rem .1rem 1rem;
+  margin: 16% auto 4% auto;
   }
 }
 
