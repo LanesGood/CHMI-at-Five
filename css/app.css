@@ -111,11 +111,19 @@ Typography
 	font-family: 'futura-pt', 'Futura', sans-serif;
 }*/
 body {
+  font-family: 'futura-pt', Futura, sans-serif;
   font-size: 13px;
+}
+h1,h2,h3,h4,h5,h6{
+  color: #404e66;
+  font-family: 'futura-pt', Futura, sans-serif;
 }
 .fa {
   font-family: 'FontAwesome';
   font-style: normal;
+}
+#fa-stretch{
+  transform: scale(1.25,1);
 }
 .secTitle{
 	color: #fff;
@@ -177,17 +185,25 @@ body {
 .colorTile1 > h1,h2,h3,h4,h5, {
   color: #FFF;
 }
-.colorTile3 > h1,h2,h3,h4,h5{
-	color: #FFFFFF;
-}
 .colorTile2 > h1,h2,h3,h4,h5{
   color: #404e66;
+}
+.colorTile3 > h1,h2,h3,h4,h5{
+	color: #FFFFFF;
 }
 .bigpara{
   font-size: 1.3em;
   padding: 1em;
   font-weight: 400;
   font-style: italic;
+}
+.big-num1{
+  font-size: 6rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: .8em;
+  margin-left:-.2em;
+  margin-bottom:.1em;
 }
 .bold-li{
   font-weight: 700;
@@ -209,6 +225,10 @@ body {
     -moz-transform:rotate(180deg);
     -webkit-transform:rotate(180deg);
     transform:rotate(180deg);
+}
+.blue-em{
+  font-weight: heavy, 700;
+  color: #83d5f7;
 }
 /******
 SIDEBAR
