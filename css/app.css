@@ -480,7 +480,8 @@ ODOMETER
   display: inline-block;
   float: left;
 	text-align: center;
-	font-size: 4em;
+  margin: -1.1rem .25rem 0 -.25rem;
+	font-size: 4.75em;
 	font-weight: 400; 
 }
 .odometer.odometer-auto-theme, .odometer.odometer-theme-minimal {
