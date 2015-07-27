@@ -395,10 +395,12 @@ SLIDER IMAGES
 
 .quote-slider{
   height: 15vw;
-  margin: 5rem;
+  margin: 2rem;
 }
 .quote-slider h4{
-  color: #404e66;}
+  color: #404e66;
+  margin: 2rem;
+}
 /********
 QUOTE MAP
 ********/
