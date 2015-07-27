@@ -331,7 +331,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
  var $windowWidth=$(window).width();
-
+/**
 $( window ).resize(function() {
 var $windowWidth=$(window).width();
 if(($windowWidth > 1) && ($windowWidth < 640)){

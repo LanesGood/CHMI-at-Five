@@ -196,13 +196,13 @@ h1,h2,h3,h4,h5,h6{
   font-size: .85em;
   line-height: 1.25em;
 }
-.colorTile1 > h1,h2,h3,h4,h5, li{
+.colorTile1 * h1,h2,h3,h4,h5,p li{
   color: #FFFFFF;
 }
-.colorTile2 > h1,h2,h3,h4,h5, li{
+.colorTile2 * h1,h2,h3,h4,h5,p li{
   color: #404e66;
 }
-.colorTile3 > h1,h2,h3,h4,h5, li{
+.colorTile3 * h1,h2,h3,h4,h5,p li{
 	color: #FFFFFF;
 }
 .pink-quote{
@@ -392,6 +392,13 @@ SLIDER IMAGES
   position: relative;
   overflow: hidden;
 }
+
+.quote-slider{
+  height: 15vw;
+  margin: 2rem;
+}
+.quote-slider h4{
+  color: #404e66;}
 /********
 QUOTE MAP
 ********/
