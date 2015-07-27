@@ -110,6 +110,13 @@ header,nav,a,img,ul,h1,li{
   -webkit-transition: all .4s; /* Safari and Chrome */
   -o-transition: all .4s; /* Opera */
   }
+
+#visit {
+  color: #FFF;
+  padding: 1rem 2rem 1.0625rem 2rem;
+  text-align: center;
+  background-color: #2c84c6;
+}
 /*********
 Typography
 *********/
