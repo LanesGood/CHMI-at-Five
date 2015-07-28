@@ -181,11 +181,11 @@ h1,h2,h3,h4,h5,h6{
 }
 .subheader{
 	color:#fff;
-	text-align: center;
+	text-align: left;
 }
 .subheader2{
 	color:#404e66;
-	text-align: center;
+	text-align: left;
 }
 
 #bigText{
