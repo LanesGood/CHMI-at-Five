@@ -456,6 +456,24 @@ BLOCK GRIDS
 		-webkit-box-shadow: 1px 1px 3px rgba(188,188,188,0.4); 
 		box-shadow: 1px 1px 3px rgba(188,188,188,0.4);
 }
+/*****
+LOGOS
+*****/
+.logos_bg{
+  max-width: 1920px;
+  background-color: #ccc;
+}
+.logos-bg h5{
+  text-transform: uppercase;
+  line-height: 1em;
+  color: #404e66;
+}
+figure {
+  display: inline;
+  
+  margin: 0;
+  padding: 0;
+}
 
 /*************
 EASY PIE CHART
