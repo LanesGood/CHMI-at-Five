@@ -395,14 +395,24 @@ SLIDER IMAGES
   overflow: hidden;
 }
 
+/***********
+QUOTE SLIDER
+***********/
+
 .quote-slider{
-  height: 15vw;
   margin: 2rem;
 }
 .quote-slider h4{
   color: #404e66;
   margin: 2rem;
 }
+
+.quote-pic{
+  float: right;
+  max-width: 20px;
+  margin: 2rem 0 2rem 0;
+}
+
 /********
 QUOTE MAP
 ********/
