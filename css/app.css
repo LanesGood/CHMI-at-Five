@@ -280,6 +280,43 @@ SIDEBAR
 	color: #fff;
 }
 
+/******
+RIBBONS
+******/
+#ribbon {
+  padding: .34em 1em;
+  margin: 5% 0 5% 0;
+  position: relative;
+  color: #ffffff;
+  font: 32px 'futura-pt', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  background: -webkit-linear-gradient(top, #83d6f8, #83d5f7);
+  display: inline-block;
+}
+
+
+#ribbon:before {
+  left: -1.35em;
+  border-right-width: .75em;
+  border-left-color: transparent;
+}
+
+
+#Ribcontent:before{
+  content: "";
+  bottom: -.5em;
+  position: absolute;
+  display: block;
+  border-style: solid;
+  border-color: #0675b3 transparent transparent transparent;
+}
+
+#Ribcontent:before {
+  left: 0;
+  border-width: .5em 0 0 .5em;
+}
+
 /**********
 BACKGROUNDS
 **********/
