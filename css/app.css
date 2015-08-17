@@ -177,10 +177,12 @@ h1,h2,h3,h4,h5,h6{
 	font-weight: 700;
 	color: #83d5f7;
 }
+/***
 .subheader{
 	color:#fff;
 	text-align: left;
 }
+***/
 .subheader2{
 	color:#404e66;
 	text-align: left;
@@ -200,9 +202,11 @@ h1,h2,h3,h4,h5,h6{
 .colorTile2 h1,h2,h3,h4,h5,p li{
   color: #404e66;
 }
+/***
 .colorTile3 h1,h2,h3,h4,h5,p li{
 	color: #FFFFFF;
 }
+****/
 .pink-quote{
   color: #de2156;
   font-size: 1.8rem;
