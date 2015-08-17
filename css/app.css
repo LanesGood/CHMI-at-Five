@@ -510,20 +510,23 @@ BLOCK GRIDS
 /*****
 LOGOS
 *****/
-.logos_bg{
-  max-width: 1920px;
-  background-color: #ccc;
+.p-logos{
+  max-width: 80%;
 }
-.logos-bg h5{
+
+.p-logos h5{
   text-transform: uppercase;
   line-height: 1em;
   color: #404e66;
 }
 figure {
   display: inline;
-  
-  margin: 0;
+  margin: 5px;
   padding: 0;
+}
+
+figure img{
+  width: 15em;
 }
 
 /*************
