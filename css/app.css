@@ -297,6 +297,7 @@ RIBBONS
   font: 32px 'futura-pt', sans-serif;
   text-align: center;
   text-transform: uppercase;
+  font-weight: 700;
   background: -webkit-linear-gradient(top, #83d6f8, #83d5f7);
   display: inline-block;
 }
@@ -499,6 +500,11 @@ img.map{
   font-size: .7em;
   font-style: italic;
 }
+
+.big-img{
+  padding:5% 0;
+}
+
 /**********
 BLOCK GRIDS
 **********/
