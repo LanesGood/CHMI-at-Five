@@ -198,6 +198,12 @@ h1,h2,h3,h4,h5,h6{
   font-size: .85em;
   line-height: 1.25em;
 }
+
+.5cs h5{
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1.1em;
+}
 .colorTile1 h1,h2,h3,h4,h5,p li{
   color: #FFFFFF;
 }
@@ -390,7 +396,9 @@ BACKGROUNDS
 	margin: 0;
 	padding: 0;
 }
-
+.alt-bg{
+  background-color: #f1f6f8;
+}
 /*************
 SLIDER IMAGES
 *************/
