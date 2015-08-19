@@ -78,6 +78,8 @@ TOPBAR
 .topLinks ul{
 	font-size: 1.2em;
 	position: absolute;
+  font-weight: 400;
+  text-transform: uppercase;
 	top: 8%;
 	right: 8%;
 }
@@ -95,6 +97,7 @@ TOPBAR
 		font-size: 1.8em;
 	}
 	.top-bar.small .topLinks ul{
+    font-weight: 700;
 		font-size: .8em;
 		position: absolute;
 		top: 2%;
@@ -561,9 +564,11 @@ figure {
   margin:0;
   padding: 0;
 }
-
+figure:first-child{
+  margin-left: 5%;
+}
 figure img{
-  width: 12vw;
+  width: 18%;
 }
 
 /*************
