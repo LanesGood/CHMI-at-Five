@@ -189,7 +189,14 @@ h1,h2,h3,h4,h5,h6{
   text-transform: uppercase;
 	text-align: left;
 }
-
+#inText{
+  color: #fff;
+  font-family: 'futura-pt-i7', 'futura-pt', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  margin: auto;
+ }
 #bigText{
 	font-weight: 700;
 	font-size: 3em;
@@ -265,6 +272,9 @@ h1,h2,h3,h4,h5,h6{
 
 .t-heavy{
   font-weight: 700;
+}
+.repTitle{
+  text-align: right;
 }
 /******
 SIDEBAR
