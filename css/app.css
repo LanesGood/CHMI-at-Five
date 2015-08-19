@@ -688,7 +688,12 @@ ODOMETER
   -o-transform: translateY(0);
   transform: translateY(0);
 }
-
+/******
+BUTTONS
+******/
+.button{
+  background-color: #2c84c6;
+}
 /************
 MEDIA QUERIES
 ************/
