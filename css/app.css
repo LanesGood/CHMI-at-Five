@@ -472,6 +472,7 @@ QUOTE SLIDER
 }
 
 .quote-pic{
+  border-radius: 50% 50%;
   float: right;
   max-width: 10vw;
   margin: 6em 0 0 2em;
