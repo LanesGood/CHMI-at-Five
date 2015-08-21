@@ -192,6 +192,10 @@ h1,h2,h3,h4,h5,h6{
   text-transform: uppercase;
 	text-align: left;
 }
+.subheadW{
+  color:#FFFFFF;
+  text-align: left;
+}
 #inText{
   color: #fff;
   font-family: 'futura-pt-i7', 'futura-pt', sans-serif;
@@ -203,6 +207,9 @@ h1,h2,h3,h4,h5,h6{
 #bigText{
 	font-weight: 700;
 	font-size: 3em;
+}
+.5cs{
+  margin-bottom: 15%;
 }
 .5cs p{
   font-size: .85em;
@@ -231,11 +238,7 @@ h1,h2,h3,h4,h5,h6{
   line-height: 2.1rem;
 }
 .fancy-quote{
-  color:#2c84c6;
-  margin: 1rem 0 0 -10%;
-  width: 120%;
-  font-size: 1.5rem;
-  padding: 1rem;
+  font-size: 1.2rem;
   font-weight: 400;
   font-style: italic;
 }
@@ -250,8 +253,9 @@ h1,h2,h3,h4,h5,h6{
 .bold-li{
   font-weight: 700;
 }
-.bold-li p, h4{
+.bold-li p{
   font-weight: normal;
+  text-indent: 2rem;
 }
 .chev{
 	line-height: 14px !important;
@@ -281,6 +285,16 @@ h1,h2,h3,h4,h5,h6{
 }
 .top-mar{
   margin-top: 3%;
+}
+.quote-left{
+  float: left;
+  margin: 1rem 1.1rem 1rem -2rem;
+  width: 45%;
+}
+.quote-right{
+  float: right;
+  margin: 1rem -2rem 1rem 1.1rem;
+  width: 45%;
 }
 /******
 SIDEBAR
@@ -705,7 +719,10 @@ MEDIA QUERIES
 
 @media (max-width: 780px) {
 	.topTitle{
-		display: none;
+    border:none;
+  }
+  .top-bar.small .topTitle {
+    border: none;
 	}
 
   #heroText{
