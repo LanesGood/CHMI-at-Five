@@ -120,6 +120,9 @@ header,nav,a,img,ul,h1,li{
   text-align: center;
   background-color: #2c84c6;
 }
+.content{
+  margin-bottom: 10%;
+}
 /*********
 Typography
 *********/
@@ -281,6 +284,8 @@ h1,h2,h3,h4,h5,h6{
   font-weight: 700;
 }
 .repTitle{
+  text-transform: uppercase;
+  border-bottom: 4px solid #404e66;
   text-align: right;
 }
 .top-mar{
