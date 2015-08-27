@@ -15,7 +15,10 @@ CSS CONTENTS
 6. QUOTE MAP
 7. BLOCK GRIDS
 8. EASY PIE CHART
-9. ODOMETER
+9. ARTICLE CARDS
+10.ODOMETER
+11.BUTTONS
+12.MEDIA QUERIES
 
 REF:
 CHMI COLORS=
@@ -285,7 +288,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .repTitle{
   text-transform: uppercase;
-  border-bottom: 4px solid #404e66;
+  border-bottom: 6px solid #404e66;
   text-align: right;
 }
 .top-mar{
@@ -619,6 +622,36 @@ EASY PIE CHART
   margin-left: 0.1em;
   font-size: .8em;
 }
+
+/***********
+ARTILE CARDS
+***********/
+.article-card {
+  border: 1px solid #d7d7d7;
+  margin-bottom: 1.5rem;
+  box-shadow: 2px 3px 4px 0px #d7d7d7; }
+  .article-card .card-content {
+    background: #fff;
+    margin: 1.25rem; }
+    .article-card .card-content .post-author {
+      text-align: center; }
+    .article-card .card-content h4 {
+      color: #de2156; }
+    .article-card .card-content p {
+      color: #404e66; }
+    .article-card .card-content a i {
+      font-weight: 300;
+      color: #404e66;
+      margin: 0 .5rem;
+      padding: 5px 7px 5px 7px;
+      border: 1px solid #404e66;
+      border-radius: 50%; }
+    .article-card .card-content img.post-icon {
+      position: absolute;
+      width: 3rem;
+      border-radius: 50%;
+      margin-top: -3rem; }
+
 
 /*******
 ODOMETER
