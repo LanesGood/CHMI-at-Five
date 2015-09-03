@@ -285,6 +285,10 @@ h1,h2,h3,h4,h5,h6{
   color: #83d5f7;
 }
 
+.full-q{
+  font-size: 1.3em;
+  margin-left: -15%
+}
 .t-heavy{
   font-weight: 700;
 }
