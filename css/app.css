@@ -596,7 +596,7 @@ figure:first-child{
   margin-left: 5%;
 }
 figure img{
-  width: 18%;
+  width: 17%;
 }
 
 /*************
@@ -757,6 +757,9 @@ BUTTONS
 .button{
   background-color: #2c84c6;
 }
+.button:hover{
+  background-color: #83d5f7;
+}
 /****
 VIDEO
 ****/
@@ -816,6 +819,9 @@ MEDIA QUERIES
   padding: .1rem 1rem .1rem 1rem;
   margin: 16% auto 4% auto;
   }
+  .videoWrapper iframe{
+    max-width: 75%;
+  }
 }
 
 @media (max-width: 480px) {
@@ -828,5 +834,8 @@ MEDIA QUERIES
   }
   .qsource{
     font-size: 1em;
+  }
+  .videoWrapper iframe{
+    max-width: 50%;
   }
 }
