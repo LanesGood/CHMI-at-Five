@@ -806,6 +806,9 @@ VIDEO
     color: #8f9296;
     font-size: 0.875rem;
     margin: 0 0 1rem 0; }
+  .footer img{
+    max-width: 11rem;
+  }
   .footer .about {
     color: #92999f;
     font-size: 0.875rem;
