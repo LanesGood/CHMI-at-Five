@@ -801,6 +801,9 @@ VIDEO
       margin-bottom: 2rem; }
       .footer .contact li p {
         padding-left: 5rem; }
+    .footer .contact i {
+      padding-right:.6rem;
+      margin-left:-.5rem; }
   .footer .copywrite {
     color: #8f9296;
     font-size: 0.875rem;
