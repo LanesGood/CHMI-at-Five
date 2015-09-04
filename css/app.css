@@ -837,6 +837,10 @@ VIDEO
         margin-right: 1rem; } }
 
 .F-logo {
+  border: 7px solid #fff;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
   color: #fff;
   font-size: 1.5rem; }
   .F-logo i {
