@@ -787,8 +787,6 @@ VIDEO
     display: inline-block;
     width: 2rem;
     height: 2rem;
-    background-color: #33383b;
-    border-radius: 2px;
     font-size: 1.5rem;
     color: #fff;
     text-align: center;
@@ -803,16 +801,6 @@ VIDEO
       margin-bottom: 2rem; }
       .footer .contact li p {
         padding-left: 5rem; }
-    .footer .contact i {
-      position: absolute;
-      background-color: #33383b;
-      color: #fff;
-      font-size: 2rem;
-      border-radius: 50%;
-      line-height: 1;
-      margin: 0 0 0 -4rem;
-      vertical-align: middle;
-      padding: .25em .45em; }
   .footer .copywrite {
     color: #8f9296;
     font-size: 0.875rem;
