@@ -147,6 +147,8 @@ h1,h2,h3,h4,h5,h6{
 }
 #fa-stretch{
   transform: scale(1.25,1);
+  font-size: 12em;
+  margin-top: -.1em;
 }
 .secTitle{
 	color: #fff;
@@ -852,10 +854,11 @@ MEDIA QUERIES
 
 @media (max-width: 780px) {
 	.topTitle{
-    border:none;
+    margin-top: 14%;
   }
   .top-bar.small .topTitle {
     border: none;
+    margin-top: 8%;
 	}
 
   #heroText{
@@ -869,6 +872,10 @@ MEDIA QUERIES
     z-index: 18;
   }
 
+  .big-num1{
+    font-size: 3rem;
+  }
+
   .overlay{
     font-size: 3vw;
   }
@@ -879,6 +886,10 @@ MEDIA QUERIES
   border: 2px solid #fff;
   padding: .1rem 1rem .1rem 1rem;
   margin: 16% auto 4% auto;
+  }
+  #fa-stretch{
+  font-size: 5em;
+  margin-top: -.1em;
   }
 
 .secTitle2{
