@@ -289,12 +289,13 @@ h1,h2,h3,h4,h5,h6{
     transform:rotate(180deg);
 }
 .blue-em{
-  font-weight: heavy, 700;
+  font-weight: 700;
   color: #83d5f7;
 }
 
 .full-q{
-  font-size: 1.3em;
+  margin: 2% 0 5% 2% ;
+  font-size: 1.4em;
 }
 .t-heavy{
   font-weight: 700;
