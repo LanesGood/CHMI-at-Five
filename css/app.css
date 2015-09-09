@@ -654,7 +654,7 @@ ARTICLE CARDS
       font-weight: 300;
       color: #404e66;
       margin: 0 .5rem;
-      padding: 5px 7px 5px 7px;
+      padding: 7px;
       border: 1px solid #404e66;
       border-radius: 50%; }
     .article-card .card-content img.post-icon {
@@ -885,6 +885,7 @@ MEDIA QUERIES
   }
 
   .overlay{
+    font-weight: 700;
     font-size: 3vw;
   }
   .secTitle{
