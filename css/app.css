@@ -105,9 +105,8 @@ TOPBAR
 	}
 	.top-bar.small .topLinks ul{
     font-weight: 700;
-		font-size: .8em;
+		font-size: 1em;
 		position: absolute;
-		top: 2%;
 	}
 	.top-bar.small .CHMIlogo{
 		width: 240px;
@@ -885,6 +884,7 @@ VIDEO
   padding-bottom: 56.25%; /* 16:9 */
   padding-top: 25px;
   height: 0;
+  margin: 0 auto;
 }
 .videoWrapper iframe {
   position: absolute;
