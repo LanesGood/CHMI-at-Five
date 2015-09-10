@@ -40,7 +40,7 @@ $(function() {
       var $this     = $(this),
           offsetTop = $this.offset().top;
       if (scrolled + win_height_padded < offsetTop) {
-        $(this).removeClass('animated fadeInLeft')
+        $(this).removeClass('animated fadeInLeft fadeInRight')
       }
     });
   }
