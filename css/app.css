@@ -10,15 +10,16 @@ CSS CONTENTS
 1. TOPBAR
 2. TYPOGRAPHY
 3. SIDEBAR
-4. BACKGROUNDS
-5. HERO IMAGE
-6. QUOTE MAP
-7. BLOCK GRIDS
-8. EASY PIE CHART
-9. ARTICLE CARDS
-10.ODOMETER
-11.BUTTONS
-12.MEDIA QUERIES
+4. RIBBONS
+5. BACKGROUNDS
+6. HERO IMAGE
+7. QUOTE MAP
+8. BLOCK GRIDS
+9. EASY PIE CHART
+10. ARTICLE CARDS
+11.ODOMETER
+12.BUTTONS
+13.MEDIA QUERIES
 
 REF:
 CHMI COLORS=
@@ -153,7 +154,7 @@ h1,h2,h3,h4,h5,h6{
 
   .down-chev i{
     transform: scale(1.25,1);
-    margin-top: -.2em;
+    margin-top: .5em;
   }
   
 .secTitle{
@@ -179,7 +180,7 @@ h1,h2,h3,h4,h5,h6{
 .readmore{
 	display: block;
 	padding-top: 2rem;
-	padding-bottom: 2rem;
+	padding-bottom: 4rem;
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -349,7 +350,7 @@ RIBBONS
 ******/
 #ribbon {
   padding: .34em 1em;
-  margin: 5% 0 5% 0;
+  margin: 5% 0 5% -2%;
   position: relative;
   color: #ffffff;
   font: 32px 'futura-pt', sans-serif;
