@@ -46,7 +46,7 @@ Pink #de2156
 }
 
 .contentWrap{
-	padding-top: 8rem;
+	padding-top: 4rem;
 	padding-bottom: 2rem;
 }
 
@@ -74,7 +74,7 @@ TOPBAR
 	border: 7px solid #404e66;
 	margin-left: auto;
  	margin-right: auto;
- 	margin-top: 4%;
+ 	margin-top: 2%;
 	color: #404e66;
 	font-weight: 700;
 	text-align: center;
@@ -84,14 +84,13 @@ TOPBAR
 
 .topLinks ul{
 	font-size: 1.2em;
-	position: absolute;
   font-weight: 400;
   text-transform: uppercase;
-	top: 8%;
-	right: 8%;
+	margin-top: 28%;
+	margin-right: 8%;
 }
 .top-bar.large{
-	height: 11.8em;
+	height: 10.8em;
 }
 
 .top-bar.small{
@@ -106,7 +105,8 @@ TOPBAR
 	.top-bar.small .topLinks ul{
     font-weight: 700;
 		font-size: 1em;
-		position: absolute;
+    margin-top: -16%;
+    margin-right: 2%;
 	}
 	.top-bar.small .CHMIlogo{
 		width: 240px;
@@ -976,11 +976,11 @@ MEDIA QUERIES
 
 @media (max-width: 780px) {
 	.topTitle{
-    margin-top: 14%;
+    margin-top: 4%;
   }
   .top-bar.small .topTitle {
     border: none;
-    margin-top: 8%;
+    margin-top: 2%;
 	}
 
   #heroText{
