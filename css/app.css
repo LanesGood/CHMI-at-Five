@@ -133,9 +133,6 @@ header,nav,a,img,ul,h1,li{
 Typography
 *********/
 
-/*body, h1, h2, h3, h4, h5, h6, a, :before, :after{
-	font-family: 'futura-pt', 'Futura', sans-serif;
-}*/
 body {
   font-family: 'futura-pt', Futura, sans-serif;
   font-size: 13px;
@@ -154,9 +151,9 @@ h1,h2,h3,h4,h5,h6{
   margin-top: -.1em;
 }
 
-  .down-chev i{
-    margin-top: .5em;
-  }
+.down-chev i{
+  margin-top: .5em;
+}
   
 .secTitle{
 	color: #fff;
@@ -196,12 +193,7 @@ h1,h2,h3,h4,h5,h6{
 	font-weight: 700;
 	color: #83d5f7;
 }
-/***
-.subheader{
-	color:#fff;
-	text-align: left;
-}
-***/
+
 .subheader2{
 	color:#404e66;
   font-weight: 700;
@@ -210,7 +202,8 @@ h1,h2,h3,h4,h5,h6{
 }
 .subheadW{
   font-weight: bold;
-  line-height: 1.1em;
+  line-height: 1.2em;
+  margin: 2em 0;
   color:#FFFFFF;
   text-align: left;
 }
@@ -245,11 +238,7 @@ h1,h2,h3,h4,h5,h6{
 .colorTile2 h1,h2,h3,h4,h5,p li{
   color: #404e66;
 }
-/***
-.colorTile3 h1,h2,h3,h4,h5,p li{
-	color: #FFFFFF;
-}
-****/
+
 .pink-quote{
   color: #de2156;
   font-size: 1.8rem;
@@ -543,22 +532,7 @@ img.map{
   right: 0;
   top: 12vw;
 }
-/*
-.bw-gradient:after{
-  content: ' ';
-  max-width: 1290px;
-  height: 38.9%;
-  margin:0 auto;
-  background-image: linear-gradient(to bottom, rgba(255,255,255,0.4), rgba(0,0,0,1));
-  bottom: 0;
-  left: 0;
-  position: absolute;
-  right:0;
-  top:0;
-  opacity: 1;
-  z-index:1;
-}
-*/
+
 .qsource{
   font-size: .7em;
   font-style: italic;
@@ -608,6 +582,11 @@ figure:first-child{
 }
 figure img{
   width: 17%;
+}
+
+.logoWrap{
+  padding: 4% 15%;
+  background-color: #b5e1f2;
 }
 
 /*************
@@ -906,9 +885,8 @@ VIDEO
 .videoWrapper {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
-  padding-top: 25px;
   height: 0;
-  margin: 0 auto;
+  margin: 4% auto;
 }
 .videoWrapper iframe {
   position: absolute;
