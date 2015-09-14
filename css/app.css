@@ -223,7 +223,6 @@ h1,h2,h3,h4,h5,h6{
   margin-bottom: 15%;
 }
 .5cs p{
-  font-size: .85em;
   line-height: 1.25em;
 }
 
@@ -241,7 +240,7 @@ h1,h2,h3,h4,h5,h6{
 
 .pink-quote{
   color: #de2156;
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   line-height: 2.1rem;
 }
 .fancy-quote{
@@ -284,10 +283,6 @@ h1,h2,h3,h4,h5,h6{
   color: #83d5f7;
 }
 
-.full-q{
-  margin: 2% 0 3% 3% ;
-  font-size: 1.4em;
-}
 .t-heavy{
   font-weight: 700;
 }
@@ -534,7 +529,6 @@ img.map{
 }
 
 .qsource{
-  font-size: .7em;
   font-style: italic;
 }
 
