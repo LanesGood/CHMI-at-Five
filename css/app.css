@@ -557,9 +557,8 @@ BLOCK GRIDS
 /*****
 LOGOS
 *****/
-.p-logos{
-  max-width: 80%;
-  margin: 0 auto;
+.p-Logo img{
+  margin: .5em 1em;
 }
 
 .p-logos h5{
