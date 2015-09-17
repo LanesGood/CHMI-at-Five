@@ -897,14 +897,12 @@ BACKTOTOP
 #back-top {
   position: fixed;
   bottom: 30px;
-  margin-left: -150px;
 }
 
 #back-top a {
-  width: 108px;
   display: block;
   text-align: center;
-  font: 11px/100% Arial, Helvetica, sans-serif;
+  font-size: 11px;
   text-transform: uppercase;
   text-decoration: none;
   color: #bbb;
@@ -914,9 +912,6 @@ BACKTOTOP
   -moz-transition: 1s;
   transition: 1s;
 }
-#back-top a:hover {
-  color: #000;
-}
 
 /* arrow icon (span tag) */
 #back-top span {
@@ -924,7 +919,7 @@ BACKTOTOP
   height: 80px;
   display: block;
   margin-bottom: 7px;
-  background: rgba(131,213,247,.2) url(../img/upArrow.png) no-repeat center center;
+  background: rgba(255,255,255,.1) url(../img/upArrow.png) no-repeat center center;
 
   /* rounded corners */
   -webkit-border-radius: 8px;
@@ -1011,7 +1006,6 @@ FOOTER
   color: #fff;
   font-size: 1.5rem; 
   display: inline-block;
-  margin-left: -5%;
   padding: .1rem .9rem;}
   .F-logo i {
     margin-right: 0.5rem; }
