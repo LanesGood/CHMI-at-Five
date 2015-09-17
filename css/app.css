@@ -902,7 +902,7 @@ BACKTOTOP
 #back-top a {
   display: block;
   text-align: center;
-  font-size: 11px;
+  font-size: .9em;
   text-transform: uppercase;
   text-decoration: none;
   color: #bbb;
@@ -919,7 +919,7 @@ BACKTOTOP
   height: 80px;
   display: block;
   margin-bottom: 7px;
-  background: rgba(255,255,255,.1) url(../img/upArrow.png) no-repeat center center;
+  background: rgba(255,255,255,.2) url(../img/upArrow.png) no-repeat center center;
 
   /* rounded corners */
   -webkit-border-radius: 8px;
@@ -932,7 +932,7 @@ BACKTOTOP
   transition: 1s;
 }
 #back-top a:hover span {
-  background-color: rgba(131,213,247,.7);
+  background-color: rgba(240,240,240,.5);
 }
 /******
 FOOTER
