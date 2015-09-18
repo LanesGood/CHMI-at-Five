@@ -905,7 +905,7 @@ BACKTOTOP
   font-size: .9em;
   text-transform: uppercase;
   text-decoration: none;
-  color: #bbb;
+  color: #404e66;
 
   /* transition */
   -webkit-transition: 1s;
@@ -919,7 +919,7 @@ BACKTOTOP
   height: 80px;
   display: block;
   margin-bottom: 7px;
-  background: rgba(255,255,255,.2) url(../img/upArrow.png) no-repeat center center;
+  background: rgba(64,78,102,.2) url(../img/upArrow.png) no-repeat center center;
 
   /* rounded corners */
   -webkit-border-radius: 8px;
@@ -932,7 +932,7 @@ BACKTOTOP
   transition: 1s;
 }
 #back-top a:hover span {
-  background-color: rgba(240,240,240,.5);
+  background-color: rgba(64,78,102,.5);
 }
 /******
 FOOTER
@@ -1053,8 +1053,12 @@ MEDIA QUERIES
   font-size: 5em;
   margin-top: -.1em;
   }
+  #back-top span {
+  width: 60px;
+  height: 60px;
+  }
 
-.secTitle2{
+  .secTitle2{
   color: #404e66;
   text-align: center;
   text-transform: uppercase;
