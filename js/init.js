@@ -48,6 +48,7 @@ $(function() {
   revealOnScroll();
 });
 
+
 $(document).ready(function(){
 
     // hide #back-top first
