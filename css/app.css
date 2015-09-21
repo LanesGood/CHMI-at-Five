@@ -643,7 +643,16 @@ ARTICLE CARDS
       width: 3rem;
       border-radius: 50%;
       margin-top: -3rem; }
-
+.panel a{
+  display: block;
+  margin: 0 auto;
+  max-width: 9rem;
+}
+.panel img{
+  max-height: 8rem;
+  display: block;
+  margin: 0 auto 1rem auto;
+}
 
 /*******
 ODOMETER
