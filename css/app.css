@@ -647,7 +647,7 @@ PANELS & CARDS
   background-color: #fff;
   padding: 1rem;
 }
-.panel a{
+.panel .button{
   display: block;
   margin: 0 auto;
   max-width: 9rem;
