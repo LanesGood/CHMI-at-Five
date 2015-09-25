@@ -238,15 +238,15 @@ h1,h2,h3,h4,h5,h6 {
     font-size: 3em
 }
 
-.5cs {
+.acs {
     margin-bottom: 15%
 }
 
-.5cs p {
+.acs p {
     line-height: 1.25em
 }
 
-.5cs h5 {
+.acs h5 {
     text-transform: uppercase;
     font-weight: 700;
     line-height: 1.1em
@@ -336,6 +336,18 @@ h1,h2,h3,h4,h5,h6 {
     float: right;
     margin: 1rem -2rem 1rem 1.7rem;
     width: 45%
+}
+
+.endTitle {
+    border: 7px solid #404e66;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    color: #404e66;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    padding: .1rem 1rem;
 }
 
 /******
