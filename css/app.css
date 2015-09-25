@@ -598,6 +598,10 @@ BLOCK GRIDS
     list-style: none
 }
 
+.reports img{
+  max-height: 325px;
+}
+
 .reports a:hover img {
     -o-box-shadow: 1px 1px 3px rgba(188,188,188,0.4);
     -moz-box-shadow: 1px 1px 3px rgba(188,188,188,0.4);
