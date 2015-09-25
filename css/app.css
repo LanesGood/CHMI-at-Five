@@ -992,6 +992,13 @@ BUTTONS
     background-color: #83d5f7
 }
 
+.endTitle .button{
+    text-transform: none;
+    font-weight: 700;
+    font-variant: normal;
+    font-size: 1.4rem;
+}
+
 /****
 VIDEO
 ****/
@@ -1225,6 +1232,12 @@ MEDIA QUERIES
     .videoWrapper iframe {
         max-width: 75%
     }
+    .endTitle .button{
+    text-transform: none;
+    font-weight: 400;
+    font-variant: normal;
+    font-size: 1rem;
+    }
 }
 
 @media (max-width: 480px) {
@@ -1241,7 +1254,12 @@ MEDIA QUERIES
     .qsource {
         font-size: 1em
     }
-    
+    .endTitle .button{
+    text-transform: none;
+    font-weight: 400;
+    font-variant: normal;
+    font-size: .7rem;
+    }
     .videoWrapper iframe {
         max-width: 50%
     }
